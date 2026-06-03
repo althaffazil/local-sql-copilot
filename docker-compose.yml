@@ -1,0 +1,20 @@
+services:
+
+  local-sql-copilot:
+
+    build: .
+
+    container_name: local-sql-copilot
+
+    ports:
+      - "8000:8000"
+
+    volumes:
+      - ./data:/app/data
+      - ./uploads:/app/uploads
+      - ./exports:/app/exports
+
+    environment:
+      - OLLAMA_HOST=http://host.docker.internal:11434
+
+    restart: unless-stopped

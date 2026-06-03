@@ -1,0 +1,14 @@
+venv/
+.git/
+__pycache__/
+*.pyc
+*.pyo
+
+exports/
+uploads/
+
+README_assets/
+.idea/
+.vscode/
+
+.env

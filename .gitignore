@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual Env
+venv/
+
+# VSCode
+.vscode/
+
+# JetBrains
+.idea/
+
+# Generated files
+exports/*
+uploads/*
+
+# Keep folders
+!exports/.gitkeep
+!uploads/.gitkeep
+
+# Environment
+.env

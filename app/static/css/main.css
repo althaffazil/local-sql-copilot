@@ -1,0 +1,33 @@
+body {
+    background-color: #f5f7fb;
+}
+
+.card-shadow {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.loading-spinner {
+    display: none;
+}
+
+.history-list {
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.sql-box {
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    white-space: pre-wrap;
+    font-family: Consolas, monospace;
+    min-height: 70px;
+}
+.table-responsive {
+    margin-top: 10px;
+}
+#exportButtons {
+    display: flex;
+    justify-content: flex-end;
+}
